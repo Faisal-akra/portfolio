@@ -1,20 +1,36 @@
-a{
-    text-decoration: none;
-    font-style: italic;
-    color: black;
-   
-}
+
 
 a{
     text-decoration: none;
     font-style: italic;
     color: black;
-   
+   font-size: large;
+   border: solid;
+   text-align: center;
+   background-color: orange;
+   font-weight: bolder;
 }
 
-#p{
-    color: yellow;
-}
-.c{
-    color: red;
-}
+
+    
+  table, th, td{
+
+    border: 2px solid black;
+   
+  }
+
+  table{
+    border-collapse: collapse;
+  }
+  th{
+    background-color: yellow;
+  }
+
+  p{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+  }
+  hr{
+    size: 50px;
+  }
