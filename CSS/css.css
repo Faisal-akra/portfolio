@@ -1,0 +1,29 @@
+#external{
+    color: blue;
+}
+
+/* CSS Selectore */
+
+#typeselector{
+    color: blue;
+}
+
+.class{
+    color: red;
+}
+
+h4>p{
+    color: red;
+}
+
+#descendant div span {
+    font-size: large
+
+}
+#Adjacent+p{
+    color:blue ;
+}
+
+#General ~ p{
+    color: red;
+}

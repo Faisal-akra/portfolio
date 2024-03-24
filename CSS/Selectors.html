@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+
+    <div>
+        <ul>
+        <li><h3>Universal Selector</h3></li>
+        <p>Universal selector ko hum all code k liye istemal kartay hay</p>
+        <p>isko hum * se shoro kartay hay</p>
+        </ul>
+    </div>
+<hr>
+
+
+<div>
+    <ul>
+        <li><h3>Type Selector</h3></li>
+        <p style="color: red;">This is type selector red color</p>
+        <p>Type selector ko hum dirct html k andar istemal kartay hay</p>
+    </ul>
+</div>
+<hr>
+
+
+<div>
+    <ul>
+   <li><h3>Id Selector</h3></li>
+    <p id="typeselector">This is Id Selector blue color </p>
+    <p>isko hum # se shoro kartay hay</p>
+</ul>
+</div>
+<hr>
+
+
+<div>
+    <ul>
+        <li><h3>Class Selector</h3></li>
+        <p class="class">This is Class selector add red color</p>
+        <p>is kp hum . se shoro kartay hay</p>
+    </ul>
+</div>
+<hr>
+
+
+<div>
+    <ul>
+        <li><h3>Child Selector</h3></li>
+        <h4>
+            <p>This is h4 Child</p>
+        </h4>
+        <p>Isko hum kuch is tarah use kartay hay h4>P</p>
+    </ul>
+</div>
+<hr>
+
+
+<div id="descendant">
+    <ul>
+        <li><h3>Descendant selector</h3></li>
+     <p>Descendant ko hum zyada tar nested elements k liye istemal kartay hay</p>
+
+     <div>
+        <span>This is descentant text is large</span>
+
+        <p>Isko hum space k sath istemal kartay hay</p>
+     </div>
+    <hr>
+    </ul>
+</div>
+
+<div>
+    <ul>
+    <li><h3>Adjacent Sibling</h3></li>
+    <h4 id="Adjacent">main h4 hu</h4>
+    <p>This is 1st paragraph of  h4 add blue color</p>
+    <p>this is h4 2nd paragrah </p>
+    <p>Adjacent sibling pe agar hum color add karain to wo only first paragraph pe apply hoga isko hum + k sath istemal kartay hay</p>
+</ul>
+</div>
+<hr>
+
+<div>
+    <ul>
+    <li><h3>General Sibling</h3></li>
+    <h3 id="General">main h3 hu</h3>
+    <p>Main h3 ka paragrah hu</p>
+    <p>Main h3 ka 2nd paragrah hu</p>
+    <span>main h3 ka span hu</span>
+    <p>General sibling main parent k jitnay bhi child hongay wo select ho jaingay</p>
+    <p>maine paragrah select kiya kuch is tarah h3 ~ P</p>
+</ul>
+</div>
+
+   
+
+
+
+
+
+</body>
+</html>
