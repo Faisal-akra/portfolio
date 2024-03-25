@@ -1,6 +1,10 @@
 #external{
     color: blue;
 }
+*{
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 /* CSS Selectore */
 
@@ -17,7 +21,8 @@ h4>p{
 }
 
 #descendant div span {
-    font-size: large
+    font-size: large;
+    color: red;
 
 }
 #Adjacent+p{
